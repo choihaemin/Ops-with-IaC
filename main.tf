@@ -136,6 +136,4 @@ resource "aws_security_group" "terraform-web-sg" {
   }
 }
 
-resource "null_resource" "test1" {}
-
-resource "null_resource" "test2" {}
+resource "null_resource" "pull" {}
