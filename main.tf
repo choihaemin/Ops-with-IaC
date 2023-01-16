@@ -135,9 +135,7 @@ resource "aws_security_group" "terraform-web-sg" {
     User = "Terraform"
   }
 }
-<<<<<<< HEAD
 
 resource "null_resource" "test1" {}
-=======
-resource "null_resource" "example" {}
->>>>>>> 29cd9d763f6b814e9aeccc75bc7a3534c810f178
+
+resource "null_resource" "test2" {}
