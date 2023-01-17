@@ -1,5 +1,8 @@
 provider "aws" {
   region = "ap-northeast-2"
+  shared_config_files=["~/.aws/config"]
+  shared_credentials_files = ["~/.aws/credentials"]
+  profile = "default"
 }
 # Configure the AWS Provider
 resource "aws_vpc" "terraform-vpc" {
@@ -136,6 +139,4 @@ resource "aws_security_group" "terraform-web-sg" {
   }
 }
 
-resource "null_resource" "test1" {}
-
-resource "null_resource" "test2" {}
+resource "null_resource" "third-final" {}
