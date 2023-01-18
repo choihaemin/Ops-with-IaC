@@ -116,6 +116,20 @@ resource "aws_instance" "terraform-web-server" {
     User = "Terraform"
   }
 }
+
+resource "aws_instance" "terraform-web-server-2" {
+  ami                    = "ami-0f2c95e9fe3f8f80e"
+  instance_type          = "t2.micro"
+  availability_zone      = "ap-northeast-2a"
+  vpc_security_group_ids = [aws_security_group.terraform-web-sg.id]
+  subnet_id              = aws_subnet.terraform-web-public-subnet-1.id
+  key_name = "terraform-key"
+  tags = {
+    Name = "terraform-web-server-2"
+    User = "Terraform"
+  }
+}
+
 # Create Web Security Group
 resource "aws_security_group" "terraform-web-sg" {
   name        = "terraform-web-sg"
