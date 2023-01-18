@@ -4,6 +4,7 @@ provider "aws" {
   shared_credentials_files = ["~/.aws/credentials"]
   profile = "default"
 }
+/*
 # Configure the AWS Provider
 resource "aws_vpc" "terraform-vpc" {
   cidr_block = "10.10.0.0/16"
@@ -140,3 +141,4 @@ resource "aws_security_group" "terraform-web-sg" {
 }
 
 resource "null_resource" "third-final" {}
+*/
