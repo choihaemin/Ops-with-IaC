@@ -139,6 +139,5 @@ resource "aws_security_group" "terraform-web-sg" {
     User = "Terraform"
   }
 }
-
-resource "null_resource" "third-final" {}
 */
+resource "null_resource" "third-final" {}
