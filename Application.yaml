@@ -1,3 +1,2 @@
-installd app
-  - yum tcpdump
-  - yum sshd20
+- app
+  - installed test1
