@@ -1,8 +1,5 @@
 - app
-  - test2
+  - test1
     - version: 2.0
     - state: running
     - exist: N
-  - test1
-  - test3
-  - net-tools
