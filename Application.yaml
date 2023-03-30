@@ -1,8 +1,7 @@
+- ID
+  - resource: i-0dc0f78b864d3f11b //Terraform provisioned ID
 - app
-  - test2
+  - test1
     - version: 2.0
     - state: running
     - exist: N
-  - test1
-  - test3
-  - net-tools
