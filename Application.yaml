@@ -5,5 +5,9 @@
     - version: 2.0
     - state: stopped
     - exist: yes
+  - sshd
+    - version: 2.0
+    - state: stopped
+    - exist: yes
 - os
   - test2
