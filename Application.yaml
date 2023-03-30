@@ -3,7 +3,7 @@
 - app
   - net-tools
     - version: 2.0
-    - state: running
+    - state: stopped
     - exist: yes
 - os
   - test2
