@@ -1,6 +1,3 @@
 - app
-  - test1
-    - version: 2.0
-    - state: running
-    - exist: Y
 - os
+  - test1
