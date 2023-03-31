@@ -7,4 +7,5 @@
     - installed: yes
 - os config
   - test1
+    - Owner: ubuntu
   - test2
