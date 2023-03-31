@@ -1,13 +1,5 @@
 - id
-  - resource: I-2832471y63219 //terraform provisioned ID
+  - resource: i-2832471y63219 //terraform provisioned ID
 - app
-  - net-tools
-    - version: 2.0
-    - state: stopped
-    - exist: no
-  - sshd
-    - version: 2.0
-    - state: stopped
-    - exist: yes
 - os
   - test2
