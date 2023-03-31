@@ -2,7 +2,7 @@
   - resource: i-2832471y63219 //terraform provisioned ID
 - app
   - net-tools
-    - version: 1.1
+    - version: 2.0
     - state: running
     - installed: yes
 - os config
