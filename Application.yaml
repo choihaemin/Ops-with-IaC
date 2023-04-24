@@ -1,6 +1,9 @@
 - id
   - resource: i-2832471y63219 //terraform provisioned ID
 - app
+  - installed: net-tools
+  - version: v1.0
+  - state: running
 - os config
   - test1
     - Owner: ubuntu
